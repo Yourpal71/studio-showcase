@@ -5,6 +5,7 @@ import { login } from "@/lib/auth";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Lock } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Login = () => {
   const [password, setPassword] = useState("");
@@ -31,6 +32,7 @@ const Login = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="w-full max-w-sm text-center"
       >
+        <img src={logo} alt="Portfolio logo" className="mx-auto mb-8 h-20 w-20 object-contain" />
         <h1 className="mb-2 text-2xl font-light tracking-[0.2em] uppercase text-foreground">
           Portfolio
         </h1>
