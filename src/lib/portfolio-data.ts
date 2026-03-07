@@ -21,7 +21,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "Editorial Layout — Mono Magazine",
     description: "Art direction and layout design for a quarterly print publication focused on contemporary architecture.",
     category: "Print",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&h=600&fit=crop",
+    image: editorialAbstract,
   },
   {
     id: "3",
