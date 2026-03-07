@@ -67,7 +67,7 @@ const Portfolio = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="group cursor-pointer overflow-hidden rounded-sm"
-              onClick={() => setSelectedItem(item)}
+              onClick={() => navigate(`/portfolio/${item.id}`)}
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                 <img
