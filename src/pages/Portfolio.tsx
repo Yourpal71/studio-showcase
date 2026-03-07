@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { isAuthenticated, logout } from "@/lib/auth";
-import { portfolioItems, type PortfolioItem } from "@/lib/portfolio-data";
+import { portfolioItems } from "@/lib/portfolio-data";
 import { Button } from "@/components/ui/button";
-import { LogOut, X } from "lucide-react";
+import { LogOut } from "lucide-react";
 
 const INITIAL_COUNT = 2;
 
