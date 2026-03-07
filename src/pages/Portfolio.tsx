@@ -105,55 +105,6 @@ const Portfolio = () => {
         )}
       </main>
 
-      {/* Lightbox */}
-      <AnimatePresence>
-        {selectedItem && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/90 p-4 md:p-10"
-            onClick={() => setSelectedItem(null)}
-          >
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.95, opacity: 0 }}
-              transition={{ duration: 0.25 }}
-              className="relative max-h-[90vh] max-w-5xl w-full overflow-hidden rounded-sm bg-background"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <button
-                onClick={() => setSelectedItem(null)}
-                className="absolute right-4 top-4 z-10 rounded-full bg-background/80 p-2 text-foreground backdrop-blur-sm transition-colors hover:bg-background"
-              >
-                <X className="h-4 w-4" />
-              </button>
-              <div className="flex flex-col md:flex-row">
-                <div className="aspect-[4/3] w-full md:w-2/3 bg-muted">
-                  <img
-                    src={selectedItem.image}
-                    alt={selectedItem.title}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="flex flex-col justify-center p-8 md:w-1/3">
-                  <span className="text-xs tracking-[0.15em] uppercase text-muted-foreground">
-                    {selectedItem.category}
-                  </span>
-                  <h2 className="mt-2 text-lg font-light tracking-wide text-foreground">
-                    {selectedItem.title}
-                  </h2>
-                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                    {selectedItem.description}
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   );
 };
