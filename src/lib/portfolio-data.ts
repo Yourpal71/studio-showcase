@@ -6,15 +6,24 @@ export interface PortfolioItem {
   description: string;
   category: string;
   image: string;
+  galleryImages: string[];
 }
 
 export const portfolioItems: PortfolioItem[] = [
   {
     id: "1",
     title: "BRANDING",
-    description: "Complete visual identity system including logo, stationery, and brand guidelines for a Scandinavian design studio.",
+    description: "Conceiving and producing a new company identity is similar to having a baby: Pressure and anticipation are high. Everything has to be done right. You need to impress your clients while also renegotiating parameters. The delivery date usually occurs earlier than planned.",
     category: "Amrize",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "2",
@@ -22,6 +31,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Art direction and layout design for a quarterly print publication focused on contemporary architecture.",
     category: "Print",
     image: editorialAbstract,
+    galleryImages: [
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1553729459-uj4vd42swat?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "3",
@@ -29,6 +46,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Minimalist packaging design for a premium Japanese-inspired skincare line with embossed foil details.",
     category: "Packaging",
     image: "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "4",
@@ -36,6 +61,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Large-format environmental graphics and wayfinding system for a contemporary art exhibition.",
     category: "Environmental",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "5",
@@ -43,6 +76,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Multi-platform digital campaign assets including social media, web banners, and motion graphics.",
     category: "Digital",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "6",
@@ -50,6 +91,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Cover and interior layout for a coffee table book exploring brutalist architecture across Europe.",
     category: "Print",
     image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "7",
@@ -57,6 +106,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Complete brand system for a Copenhagen-based creative consultancy, including wordmark and collateral.",
     category: "Branding",
     image: "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "8",
@@ -64,6 +121,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Limited-edition typographic poster series exploring the relationship between sound and visual form.",
     category: "Print",
     image: "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "9",
@@ -71,6 +136,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Responsive website design for a luxury interior design firm with immersive project showcases.",
     category: "Digital",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "10",
@@ -78,6 +151,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Label and box design for a boutique winery emphasizing organic textures and hand-drawn illustration.",
     category: "Packaging",
     image: "https://images.unsplash.com/photo-1553729459-uj4vd42swat?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "11",
@@ -85,6 +166,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Wayfinding and environmental signage for a contemporary art gallery spanning three floors.",
     category: "Environmental",
     image: "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "12",
@@ -92,6 +181,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Data-driven editorial design combining infographics with documentary photography.",
     category: "Print",
     image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "13",
@@ -99,6 +196,14 @@ export const portfolioItems: PortfolioItem[] = [
     description: "UI/UX design for a meditation app with focus on minimal interaction and calming visual language.",
     category: "Digital",
     image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+    ],
   },
   {
     id: "14",
@@ -106,5 +211,13 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Brand identity and stationery suite for an award-winning architectural practice.",
     category: "Branding",
     image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=600&fit=crop",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586075010882-3a0b4f36db22?w=600&h=600&fit=crop",
+    ],
   },
 ];
