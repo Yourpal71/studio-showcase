@@ -38,7 +38,7 @@ const Login = () => {
           <span>Services</span>
         </h1>
         <p className="mb-12 text-sm text-muted-foreground tracking-wide">
-          Graphic Production
+          Graphic Production Portfolio
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
