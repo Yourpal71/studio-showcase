@@ -81,9 +81,6 @@ const Portfolio = () => {
                   <span className="text-sm font-light tracking-[0.15em] uppercase text-background">
                     {item.title}
                   </span>
-                  <span className="mt-1 text-xs text-background/70 tracking-wide">
-                    {item.category}
-                  </span>
                 </div>
               </div>
             </motion.div>
