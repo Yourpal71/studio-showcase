@@ -33,8 +33,9 @@ const Login = () => {
         className="w-full max-w-sm text-center"
       >
         <img src={logo} alt="Portfolio logo" className="mx-auto mb-8 h-25 w-25 object-contain" />
-        <h1 className="mb-2 text-2xl font-light tracking-[0.2em] uppercase text-foreground">
-          Production Svcs
+        <h1 className="mb-2 text-2xl font-light tracking-[0.2em] uppercase text-foreground flex flex-col items-center leading-tight">
+          <span>Production</span>
+          <span>Services</span>
         </h1>
         <p className="mb-12 text-sm text-muted-foreground tracking-wide">
           Graphic Production
