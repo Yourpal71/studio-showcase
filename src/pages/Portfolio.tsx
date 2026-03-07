@@ -11,7 +11,7 @@ const INITIAL_COUNT = 2;
 const Portfolio = () => {
   const navigate = useNavigate();
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
-  const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
+  
 
   useEffect(() => {
     if (!isAuthenticated()) {
