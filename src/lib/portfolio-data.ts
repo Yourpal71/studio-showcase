@@ -13,7 +13,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: "1",
     title: "Brand Identity — Lippincott",
     description: "Complete visual identity system including logo, stationery, and brand guidelines for a Scandinavian design studio.",
-    category: "Branding",
+    category: "Amrize",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
   },
   {
