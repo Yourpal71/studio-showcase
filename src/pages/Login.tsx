@@ -32,7 +32,7 @@ const Login = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="w-full max-w-sm text-center"
       >
-        <img src={logo} alt="Portfolio logo" className="mx-auto mb-8 object-contain" style={{ height: '102px', width: '102px' }} />
+        <img src={logo} alt="Portfolio logo" className="mx-auto mb-8 object-contain" style={{ height: '122px', width: '122px' }} />
         <h1 className="mb-2 text-2xl font-light tracking-[0.2em] uppercase text-foreground flex flex-col items-center leading-tight">
           <span>Production</span>
           <span>Services</span>
