@@ -1,3 +1,5 @@
+import editorialAbstract from "@/assets/editorial-abstract.jpg";
+
 export interface PortfolioItem {
   id: string;
   title: string;
