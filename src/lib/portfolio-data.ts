@@ -1,4 +1,6 @@
 import editorialAbstract from "@/assets/editorial-abstract.jpg";
+import bgImage004 from "@/assets/background-image-004.webp";
+import bgImage005 from "@/assets/background-image-005.webp";
 
 export interface PortfolioItem {
   id: string;
