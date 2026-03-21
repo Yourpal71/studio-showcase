@@ -15,7 +15,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: "1",
     title: "BRANDING",
-    description: "Conceiving and producing a new company identity is similar to having a baby: Pressure and anticipation are high. Everything has to be done right. You need to impress your clients while also renegotiating parameters. The delivery date usually occurs earlier than planned.",
+    description: "Form follows function. Great brand systems are built on disciplined execution. I translate finished designs into production-ready assets—prepping files for print and digital delivery, managing color across physical and screen-based applications, coordinating with vendors and developers to ensure every touchpoint reflects the same essential clarity. No excess. Just what works.",
     category: "Amrize",
     image: bgImage004,
     galleryImages: [
