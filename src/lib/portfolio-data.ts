@@ -17,7 +17,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "BRANDING",
     description: "Conceiving and producing a new company identity is similar to having a baby: Pressure and anticipation are high. Everything has to be done right. You need to impress your clients while also renegotiating parameters. The delivery date usually occurs earlier than planned.",
     category: "Amrize",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
+    image: bgImage004,
     galleryImages: [
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
