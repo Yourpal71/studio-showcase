@@ -1,4 +1,6 @@
 import editorialAbstract from "@/assets/editorial-abstract.jpg";
+import bgImage004 from "@/assets/background-image-004.webp";
+import bgImage005 from "@/assets/background-image-005.webp";
 
 export interface PortfolioItem {
   id: string;
@@ -15,7 +17,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "BRANDING",
     description: "Conceiving and producing a new company identity is similar to having a baby: Pressure and anticipation are high. Everything has to be done right. You need to impress your clients while also renegotiating parameters. The delivery date usually occurs earlier than planned.",
     category: "Amrize",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
+    image: bgImage004,
     galleryImages: [
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=600&h=600&fit=crop",
@@ -30,7 +32,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "Editorial Layout — Mono Magazine",
     description: "Art direction and layout design for a quarterly print publication focused on contemporary architecture.",
     category: "Print",
-    image: editorialAbstract,
+    image: bgImage005,
     galleryImages: [
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=600&h=600&fit=crop",
